@@ -9,7 +9,7 @@ def subtract(a,b):
 def multiply(a,b):
 	print(f'Multiply {a} on {b}')
 	return a * b	
-
+#function for division
 def divide(a,b):
 	print(f'Divide {a} on {b}')
 	return a / b
@@ -24,8 +24,9 @@ iq = divide(300,2)
 print(f'Age {age} Height {height} Weight {weight} Iq {iq}')
 
 print("Here is a puzzle.")
-
+#some formula to show all operations from right to left
 what = add(age, subtract(height, multiply(weight, divide(iq,2))))
+#some formula to show all operations from left to right
 what1 = height - (divide(iq,2) * weight) + age 
 print('I said:', what, 'are you laughing at?')
 print('I said:', what1, 'are you laughing at mf?')
